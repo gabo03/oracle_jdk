@@ -16,6 +16,8 @@
     dest="{{oracle_jdk_installation_dir}}"
     creates="{{oracle_jdk_installation_dir}}/jdk{{oracle_jdk_version}}/bin/java"
     force=no
+    owner=root
+    group=root
   tags: unpack
 
 - name: setup JAVA_HOME
