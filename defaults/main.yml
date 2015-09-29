@@ -5,3 +5,4 @@ oracle_jdk_package: 'jdk-7u60-linux-x64.tar.gz'
 oracle_jdk_package_subdir: '7u60-b19'
 oracle_jdk_version: '1.7.0_60'
 oracle_jdk_installation_dir: '/opt'
+

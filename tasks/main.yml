@@ -5,7 +5,7 @@
   tags: download
   sudo: yes
 
-- name: "{{oracle_jdk_installation_dir}}" must exist
+- name: oracle_jdk_installation_dir must exist
   file:
     path="{{oracle_jdk_installation_dir}}"
     state="directory"
